@@ -1,0 +1,18 @@
+.nav {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: verdana;
+	margin-left: 100px;
+	background-color: grey;
+	padding: 5px;
+	border: 2px black solid;
+	color: white;
+	
+}
+
+img {
+	height: auto;
+	position: center;
+	width: 300px;
+	margin: auto;
+}

@@ -1,0 +1,19 @@
+<!doctype html>
+<html ng-app="jazibApp">
+<head>
+    <title>Surprise!</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+    <nav>
+        <a href="#/cat" class = "nav">Cat</a>
+        <a href="#/dog" class = "nav">Dog</a>
+    </nav>
+    <div ng-view="">Loading...</div>
+    
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <script src="scripts.js"></script>
+    <script src="band-controller.js"></script>
+</body>
+</html>
