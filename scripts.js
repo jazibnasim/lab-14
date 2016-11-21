@@ -9,8 +9,19 @@ app.config(function($routeProvider) {
         templateUrl: "views/dog.html",
         
     });
+    $routeProvider.when("/sloth", {
+        templateUrl: "views/sloth.html",
+        
+    });
+
+    
+    $routeProvider.when("/porcupine", {
+        templateUrl: "views/porcupine.html",
+        
+    });
+
     $routeProvider.otherwise({
-        template: "Please select one of the links above."
+        templateUrl: "views/surprise.html",
     });
 });
 
